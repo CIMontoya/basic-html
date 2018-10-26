@@ -1,0 +1,42 @@
+h1 {
+  font-family: arial;
+  font-size: 50px;
+}
+div {
+  clear:both;
+}
+.image {
+  height: 720px;
+  width: 1080px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-spacing: 2px;
+}
+body {
+  background-image: radial-gradient(white, yellowgreen);
+}
+.list {
+  float: left;
+}
+p {
+  font-family: fantasy;
+  color: Blue;
+  font-size: 22px
+}
+h2 {
+  font-family: cursive;
+  color: darkviolet;
+  font-size: 34px;
+}
+h3 {
+  color: indigo;
+  font-size: 28px;
+}
+ul {
+  color: brown;
+  list-style-type: armenian;
+  font-size: 22px
+}
+#yellow {
+  color: yellow;
+}
