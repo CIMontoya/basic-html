@@ -1,27 +1,12 @@
-h1 {
-  font-family: arial;
-  font-size: 50px;
+body {
+  background-image: radial-gradient(white, yellowgreen);
 }
 div {
   clear:both;
 }
-.image {
-  height: 720px;
-  width: 1080px;
-  border: 2px solid black;
-  border-collapse: collapse;
-  border-spacing: 2px;
-}
-body {
-  background-image: radial-gradient(white, yellowgreen);
-}
-.list {
-  float: left;
-}
-p {
-  font-family: fantasy;
-  color: Blue;
-  font-size: 22px
+h1 {
+  font-family: arial;
+  font-size: 50px;
 }
 h2 {
   font-family: cursive;
@@ -32,11 +17,41 @@ h3 {
   color: indigo;
   font-size: 28px;
 }
+h4 {
+  font-style: italic;
+}
+p {
+  font-family: fantasy;
+  color: Blue;
+  font-size: 22px
+}
 ul {
   color: brown;
   list-style-type: armenian;
   font-size: 22px
 }
+.image {
+  height: 720px;
+  width: 1080px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-spacing: 2px;
+}
+.list {
+  float: left;
+  background-color: rgba(0,100,100,0.2)
+}
+.links a:link, a:visited{
+  color: rgb(250, 100, 0);
+  text-decoration: none;
+}
 #yellow {
   color: yellow;
+}
+
+#green {
+  color: green;
+}
+#white{
+  color: white;
 }
